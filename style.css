@@ -1,0 +1,287 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*===================== NAV Y PORTADA/ESTILO DE LETRA =====================*/
+
+/*======= NAVEGADOR =======*/
+
+.nav, a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+}
+
+/*======= PORTADA =======*/
+
+.portada {
+    background-image: linear-gradient(to top , rgba(117, 26, 236, 0.397), rgba(19, 178, 241, 0.651)), url(https://images8.alphacoders.com/568/thumb-1920-568501.jpg);
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    text-align: justify;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/*======= PORTADA TEXTOS H1/H2 =======*/
+
+.portada > h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    -webkit-animation-name: puffIn;
+    animation-name: puffIn;
+    animation-duration: 2s;
+}
+      
+    @-webkit-keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+        }
+        100% {
+          opacity: 1;
+          transform-origin: 50% 50%;
+          transform: scale(1, 1);
+          filter: blur(0px);
+        }
+      }
+    @keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+}
+    100% {
+        opacity: 1;
+        transform-origin: 50% 50%;
+        transform: scale(1, 1);
+        filter: blur(0px);
+    }
+}
+
+.portada > h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    -webkit-animation-name: puffIn;
+    animation-name: puffIn;
+    animation-duration: 2s;
+}
+      
+    @-webkit-keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+        }
+        100% {
+          opacity: 1;
+          transform-origin: 50% 50%;
+          transform: scale(1, 1);
+          filter: blur(0px);
+        }
+      }
+    @keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+}
+    100% {
+        opacity: 1;
+        transform-origin: 50% 50%;
+        transform: scale(1, 1);
+        filter: blur(0px);
+    }
+}
+
+/*===================== CONTENEDORES MAIN1 =====================*/
+
+/*======= CONTENEDOR DEL MAIN1 =======*/
+
+.contenedormain1 {
+    padding: 30px 0;
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedores {
+    display: flex;
+}
+
+/*======= CONTENEDOR PARRAFO IZQUIERDA =======*/
+
+.contenedortexto1 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contenedortexto1 {
+    padding: 30px;
+}
+
+.contenedortexto1 p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*======= CONTENEDOR PARRAFO DERECHA =======*/
+
+.contenedortexto2 {
+    padding: 30px;
+}
+
+.contenedortexto2 h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenedortexto2 p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*===================== CONTENEDORES WAVE =====================*/
+
+.contenedormain2 {
+    background-image: linear-gradient(to top , rgba(28, 69, 88, 0.342), rgba(27, 133, 175, 0.829)), url(https://s2.best-wallpaper.net/wallpaper/1920x1080/1711/Stones-wall_1920x1080.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.contenedortexto3 > h1 {
+    background-color: rgba(61, 56, 49, 0.74);
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    border: 15%;
+    width: 70%;
+    height: 50%;
+    color: white;
+
+}
+
+.contenedor_imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.contenedor_imagenes > img {
+    width: 47%;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+
+.contenedor_imagenes > img:hover {
+    width: 48%;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(23, 150, 201, 0.514);
+    padding: 0px;
+}
+
+/*【F】【O】【R】【M】【U】【L】【A】【R】【I】【O】*/
+
+/*====================== FORMULARIO 1 ======================*/
+
+.formularios {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 255, 0.404), rgba(22, 189, 218, 0.315));
+}
+
+.contactosnav {
+    font-family: 'Poppins', sans-serif;
+}
+
+#bordecontenedor {
+    outline: 17px groove #114f79;
+    outline-offset: 24px;
+}
+
+.contact_form1 {
+    height: auto;
+    margin: auto;
+    width: 460px;
+    background-color: rgba(0, 238, 255, 0.253);
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.884);
+    padding: 40px;
+}
+
+input {
+    background-color: rgba(130, 226, 243, 0.767);
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+
+input:focus {
+    background-color: rgba(139, 162, 238, 0.733);
+    border: 3px solid rgba(7, 3, 255, 0.671);
+}
+
+textarea {
+    height: 40px;
+    width: 400px;
+    background-color: rgb(248, 215, 168);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    transition: ease-in 2s;
+    padding: 10px;
+}
+
+button {
+    border-radius: 10px;
+    transition: linear 0.5s;
+    background-color:rgb(94, 226, 215);
+    font-family: 'Poppins', sans-serif;
+    padding: 4px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color:rgba(197, 156, 79, 0.938);
+}
+
+
+.contenedortextos4 {
+    background-color: white;
+}
+
+/**/
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+
+
+

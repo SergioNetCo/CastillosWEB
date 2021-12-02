@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--========================== FORMULARIO 1 =============================-->
+    
+    <div class="formularios">
+        <nav class="contactosnav">
+            <a href="index.html">Inicio</a>
+            <a href="index.html #castillos">Castillos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="contact_form1">
+            <div id="bordecontenedor">
+            <div class="formulario1">
+                <h1>Formulario de inscripción</h1>
+                <br>
+                <h3>Completa el formulario</h3>
+                <br>
+            </div>
+        
+            <form action="" method="get">
+        
+    <!--=================== CONTENIDO DEL FORMULARIO 1 ======================-->
+    
+                <p>
+                    <label class="colocar_nombre1">Nombre de usuario: </label>
+                    <input type="text" placeholder="Escribe tu nombre">
+                </p>
+                <p>
+                    <label class="colocar_contraseña1">Contraseña: </label>
+                    <input type="password" placeholder="Escribe tu contraseña">
+                </p>
+                <p>
+                    <label class="colocar_email1">Email: </label>
+                    <input type="email" placeholder="Escribe tu dirección">
+                </p>
+                
+                <label class="colocar_mensaje1">¿Quiere que le enviemos informacion a su email?</label>
+                <div class="radiomensaje">
+                <p style="display: flex; padding: 20px;">
+                    <label class="elegiropcion">SI</label><input style="width: 50%;" type="radio" placeholder="">
+                    <label class="elegiropcion">NO</label><input style="width: 50%;" type="radio" placeholder="">
+                </p>
+                </div>
+                <p>
+                    <button onclick="mensaje('La información se ha enviado')">Enviar datos</button>
+                </p>
+            </form>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
