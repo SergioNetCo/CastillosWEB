@@ -313,16 +313,97 @@ button:hover {
     background-color: white;
 }
 
-/**/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+/*!=!=!=!=     CASTILLO CHILLON    =!=!=!=!*/   /*!=!=!=!=       CHILLON.HTML      =!=!=!=!*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
 
-.parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+.portada-chillon {
+    background-image: linear-gradient(to top , rgba(117, 26, 236, 0.397), rgba(19, 178, 241, 0.651)), url(https://www.1zoom.me/big2/701/299550-Berserker.jpg);
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    text-align: justify;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/*======= PORTADA TEXTOS H1/H2 =======*/
+
+.portada-chillon > h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    -webkit-animation-name: puffIn;
+    animation-name: puffIn;
+    animation-duration: 2s;
+}
+      
+    @-webkit-keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+        }
+        100% {
+          opacity: 1;
+          transform-origin: 50% 50%;
+          transform: scale(1, 1);
+          filter: blur(0px);
+        }
+      }
+    @keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+}
+    100% {
+        opacity: 1;
+        transform-origin: 50% 50%;
+        transform: scale(1, 1);
+        filter: blur(0px);
     }
+}
 
-
-
+.portada-chillon > h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    -webkit-animation-name: puffIn;
+    animation-name: puffIn;
+    animation-duration: 2s;
+}
+      
+    @-webkit-keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+        }
+        100% {
+          opacity: 1;
+          transform-origin: 50% 50%;
+          transform: scale(1, 1);
+          filter: blur(0px);
+        }
+      }
+    @keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+}
+    100% {
+        opacity: 1;
+        transform-origin: 50% 50%;
+        transform: scale(1, 1);
+        filter: blur(0px);
+    }
+}
 
