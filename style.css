@@ -4,9 +4,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*===================== NAV Y PORTADA/ESTILO DE LETRA =====================*/
-
-/*======= NAVEGADOR =======*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+/*!=!=!=!=     NAVEGADOR           =!=!=!=!*/   /*!=!=!=!=       DROPDOWN          =!=!=!=!*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
 
 .nav, a {
     text-decoration: none;
@@ -56,7 +56,10 @@
     background-color: #3890f5;
     border: 2px solid black;
 }
-/*======= PORTADA =======*/
+
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+/*!=!=!=!=     PORTADA    =!=!=!=!*/            /*!=!=!=!=      INICIO PÁGINA      =!=!=!=!*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
 
 .portada {
     background-image: linear-gradient(to top , rgba(117, 26, 236, 0.397), rgba(19, 178, 241, 0.651)), url(https://images8.alphacoders.com/568/thumb-1920-568501.jpg);
@@ -148,7 +151,9 @@
     }
 }
 
-/*===================== CONTENEDORES MAIN1 =====================*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+/*!=!=!=!=     CONTENEDOR MAIN 1   =!=!=!=!*/   /*!=!=!=!=     PÁGINA PRINCIPAL    =!=!=!=!*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
 
 /*======= CONTENEDOR DEL MAIN1 =======*/
 
@@ -196,7 +201,9 @@
     font-weight: 300;
 }
 
-/*===================== CONTENEDORES WAVE =====================*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+/*!=!=!=!=     IMAGENES FINALES    =!=!=!=!*/   /*!=!=!=!=     PÁGINA PRINCIPAL    =!=!=!=!*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
 
 .contenedormain2 {
     background-image: linear-gradient(to top , rgba(28, 69, 88, 0.342), rgba(27, 133, 175, 0.829)), url(https://torange.biz/photo/23/HD/rock-textures-brickwork-texture-ancient-castle-23664.jpg);
@@ -240,9 +247,9 @@
     padding: 0px;
 }
 
-/*【F】【O】【R】【M】【U】【L】【A】【R】【I】【O】*/
-
-/*====================== FORMULARIO 1 ======================*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+/*!=!=!=!=     FORMULARIO    =!=!=!=!*/         /*!=!=!=!=        INSCRIPCIÓN      =!=!=!=!*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
 
 .formularios {
     font-family: 'Poppins', sans-serif;
@@ -309,8 +316,97 @@ button:hover {
 }
 
 
-.contenedortextos4 {
-    background-color: white;
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+/*!=!=!=!=    CONTENIDO FINAL (3)  =!=!=!=!*/   /*!=!=!=!=       FOOTER Y LOGO     =!=!=!=!*/
+/*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+
+.hrf {
+    border: 1rem solid rgba(0, 0, 0, 0);
+    background-image: url(https://previews.123rf.com/images/kalinavova/kalinavova1403/kalinavova140300028/27166168-muro-de-piedra-superficie-natural-de-patr%C3%B3n-fondos-de-pantalla-retro-viejo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedormain3 {
+    padding: 30px;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-image: linear-gradient(to top left , rgba(160, 139, 17, 0.212), rgba(178, 196, 19, 0.144)), url(https://previews.123rf.com/images/malven/malven1507/malven150700107/43387394-textura-abstracta-de-color-oscuro-de-una-pared-de-piedra-con-grietas-para-fondos-vac%C3%ADos-y-puros-y-pa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedortexto4, span > img {
+    border-radius: 20%;
+    width: 27%;
+    padding: 2.5rem;
+    margin: auto;
+    display: inline;
+}
+
+.empresas-texto {
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.empresas-texto > h1 {
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* !=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=! FOOTER !=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+
+.footer-conten {
+    display: flex;
+    padding: 30px;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #00c3ff;
+}
+
+.footer-a {
+    display: flex;
+    margin:auto;
+}
+
+.footer-1 {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.footer-2 {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.footer-3 {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+/* !=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=! FOOTER TEXTOS H1 Y PRE !=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
+
+.footer-1 > h1 {
+    font-size: 2.8rem;
+}
+
+.footer-2 > h1 {
+    font-size: 3rem;
+}
+
+.footer-3 > h1 {
+    font-size: 2.8rem;
+}
+
+.footer3, p > a {
+    color: rgb(8, 55, 73);
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.footer3, p > a:hover {
+    color: rgb(6, 19, 201)
 }
 
 /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
@@ -318,7 +414,7 @@ button:hover {
 /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/   /*!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!=!*/
 
 .portada-chillon {
-    background-image: linear-gradient(to top , rgba(117, 26, 236, 0.397), rgba(19, 178, 241, 0.651)), url(https://www.1zoom.me/big2/701/299550-Berserker.jpg);
+    background-image: linear-gradient(to left top , rgba(117, 26, 236, 0.397), rgba(19, 178, 241, 0.651)), url(https://www.1zoom.me/big2/701/299550-Berserker.jpg);
     width: 100%;
     height: 600px;
     margin: auto;
